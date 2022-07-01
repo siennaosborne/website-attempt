@@ -2,8 +2,9 @@
   border-radius: 20px;
   cursor: pointer;
   border: none;
- height:40px;
- background-color: red;
+  height:40px;
+  background-color: red;
+  margin-bottom: 10px;
 }
 
 .image {
@@ -13,4 +14,14 @@
 .profile-preview {
   width: 200px;
   text-align: center;
+  padding-left: 435px;
+  padding-right: 10px;
+
+  display: grid;
+  grid-template-rows: 35px ;
+}
+
+.user-info {
+  text-align: left;
+border-top: 15px;
 }
