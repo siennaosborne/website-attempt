@@ -44,3 +44,12 @@ display: inline-block;
 
 }
 
+.follow-button:hover {
+color: gray;
+cursor: pointer;
+}
+
+.message-button:hover {
+  color: gray;
+  cursor: pointer;
+}
