@@ -41,7 +41,7 @@ display: inline-block;
   text-align: center;
   padding-right: 40px;
   padding-left: 40px;
-
+  margin-bottom: 10px;
 }
 
 .follow-button:hover {
@@ -52,4 +52,20 @@ cursor: pointer;
 .message-button:hover {
   color: gray;
   cursor: pointer;
+}
+
+.story-button {
+  display: inline-block;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  border-width: 1.25px;
+  height:40px;
+  background-color: white;
+  margin-bottom: 10px;
+  transition: box-shadow .15s;
+}
+
+.story-button:hover {
+  box-shadow: 3px 8px 15px rgba(0, 0, 0, .2);
 }
